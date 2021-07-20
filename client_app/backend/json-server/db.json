@@ -1,0 +1,90 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "name": "Maulana",
+            "photoUrl": "https://randomuser.me/api/portraits/thumb/men/75.jpg",
+            "login":"maulana",
+            "password": "password",
+            "role" : 1
+        },
+        {
+            "id": 2,
+            "name": "Wilbert",
+            "photoUrl": "https://randomuser.me/api/portraits/thumb/men/76.jpg",
+            "login":"wilbert",
+            "password": "password",
+            "role" : 1
+        },
+        {
+            "id": 3,
+            "name": "Abhisen",
+            "photoUrl": "https://randomuser.me/api/portraits/thumb/men/77.jpg",
+            "login":"abhi",
+            "password": "password",
+            "role" : 0
+        },
+        {
+            "id": 4,
+            "name": "Deeb",
+            "photoUrl": "https://randomuser.me/api/portraits/thumb/men/78.jpg",
+            "login":"deeb",
+            "password": "password",
+            "role" : 0
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "customerId": "1",
+            "customerName": "alex",
+            "customerAddress" : "jl.trikora no. 100 ",
+            "phone": "081372567890",
+            "serviceType": 0,
+            "evidanceUrl": "https://picsum.photos/200",
+            "dateCreated": "2021-06-08 09:06:43",
+            "dateUpdated": "2021-06-09 04:06:40",
+            "status": 0,
+            "technician": null
+        },
+        {
+            "id": 2,
+            "customerId": "2",
+            "customerName": "ali",
+            "customerAddress" : "jl.sudirman no. 2 ",
+            "phone": "081272565870",
+            "serviceType": 0,
+            "evidanceUrl": "https://picsum.photos/200",
+            "dateCreated": "2021-06-09 04:06:40",
+            "dateUpdated": "2021-06-09 04:06:40",
+            "status": 1,
+            "technician": 1
+        },
+        {
+            "id": 3,
+            "customerId": "3",
+            "customerName": "mamat",
+            "customerAddress" : "jl.trisakti no. 33 ",
+            "phone": "081372557892",
+            "serviceType": 2,
+            "evidanceUrl": "https://picsum.photos/200",
+            "dateCreated": "2021-06-09 04:06:40",
+            "dateUpdated": "2021-06-09 04:06:40",
+            "status": 2,
+            "technician": 2
+        },
+        {
+            "id": 4,
+            "customerId": "4",
+            "customerName": "ayu",
+            "customerAddress" : "jl.kemayoran no. 7 ",
+            "phone": "081375561840",
+            "serviceType": 1,
+            "evidanceUrl": "https://picsum.photos/200",
+            "dateCreated": "2021-06-09 04:06:40",
+            "dateUpdated": "2021-06-09 04:06:40",
+            "status": 3,
+            "technician": 2
+        }
+    ]
+}
